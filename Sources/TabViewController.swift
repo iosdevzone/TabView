@@ -137,6 +137,8 @@ open class TabViewController: UIViewController {
         self.edgesForExtendedLayout = []
 
         applyTheme(theme)
+		
+		tabViewBar.refresh()
     }
 
     open override func viewDidLayoutSubviews() {
